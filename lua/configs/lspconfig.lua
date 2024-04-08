@@ -41,3 +41,11 @@ lspconfig.gopls.setup {
     },
   },
 }
+
+-- python
+lspconfig.pyright.setup {
+  on_attach = on_attach,
+  on_init = on_init,
+  capabilities = capabilities,
+  filetypes = {"python"},
+}
