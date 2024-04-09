@@ -9,7 +9,7 @@ local opts = {
     null_ls.builtins.formatting.golines,
 
     -- python
-    null_ls.builtins.diagnostics.black,
+    null_ls.builtins.formatting.black,
     null_ls.builtins.diagnostics.mypy,
     null_ls.builtins.diagnostics.ruff,
   },
